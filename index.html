@@ -240,8 +240,8 @@
   .film-note{margin:14px 0 0;font-size:12.5px;color:var(--muted)}
 
   /* ── videos ─────────────────────── */
-  .vid-band{background:var(--navy);color:var(--navy-ink)}
-  .vid-band .sec-desc{color:color-mix(in srgb, var(--navy-ink) 70%, transparent);margin-bottom:8px}
+  .vid-band{background:var(--surface);border-top:1px solid var(--line)}
+  .vid-band .sec-desc{margin-bottom:8px}
   .vid-group{margin-top:30px}
   .vid-group h3{margin:0 0 14px;font-size:17px;font-weight:800;display:flex;align-items:center;gap:10px}
   .vid-group h3 .kd{font-size:12px;font-weight:800;color:#fff;background:var(--accent);border-radius:6px;padding:3px 10px}
@@ -249,7 +249,7 @@
   .vid-card{margin:0;min-width:0}
   .vid-thumb{
     position:relative;aspect-ratio:9/16;border-radius:12px;overflow:hidden;
-    border:1px solid rgba(255,255,255,.1);background:var(--navy2);
+    border:1px solid var(--line);background:var(--chip);
   }
   .vid-thumb img{width:100%;height:100%;object-fit:cover}
   .vid-thumb .play{
@@ -260,7 +260,7 @@
   .vid-thumb .play:hover span,.vid-thumb .play:focus-visible span{background:var(--accent)}
   .vid-thumb iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
   .vid-card figcaption{margin-top:9px;font-size:13.5px;font-weight:600;line-height:1.5}
-  .vid-src{margin:28px 0 0;font-size:13px;color:color-mix(in srgb, var(--navy-ink) 70%, transparent)}
+  .vid-src{margin:28px 0 0;font-size:13px;color:var(--muted)}
   .vid-src a{color:var(--accent);font-weight:700;text-decoration:none}
   @media(max-width:900px){
     .vid-row{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin:0 -24px;padding:0 24px 10px}
