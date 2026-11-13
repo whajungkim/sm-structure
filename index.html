@@ -1043,6 +1043,7 @@ document.addEventListener('click',e=>{
   f.title=box.dataset.title;
   f.allow='accelerometer; autoplay; encrypted-media; picture-in-picture; fullscreen';
   f.allowFullscreen=true;
+  box.style.background="#000 url('https://i.ytimg.com/vi/"+box.dataset.yt+"/oar2.jpg') center/cover"; // 재생창이 뜨는 몇 초 동안 표지가 보이게
   box.replaceChildren(f);
 });
 </script>
